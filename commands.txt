@@ -1,0 +1,5 @@
+- Create a new folder using CMD
+    mkdir File_Name
+
+- delete any folder using CMD
+    rmdir File_Name
