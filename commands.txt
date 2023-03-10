@@ -3,3 +3,12 @@
 
 - delete any folder using CMD
     rmdir File_Name
+
+- to change the directory in CMD
+    cd File_Name
+
+- go back in directory in CMD
+    cd ..
+
+- want to go in parent directory in CMD
+    cd/
