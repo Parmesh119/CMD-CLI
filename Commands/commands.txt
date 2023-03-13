@@ -1,0 +1,128 @@
+MKDIR File_Name
+    -For make a new File
+
+echo sentence > File_Name
+    -For make a new File with some text
+
+type nul > File_Name
+    -For make a new File without any text
+
+RMDIR File_Name
+    -for delete the folder that contains nothing
+
+del File_Name
+    -to delete any File
+
+dir
+    -to see the content of the directory
+
+copy
+    -to copy the File
+
+move
+    -to move the File
+
+ren Old_File_Name New_File_Name
+    -rename the file to new_File_Name from Old_File_Name
+
+ipconfig
+    -to see the IP configuration
+
+cd..
+    -to go in privious directory
+
+cd\
+    -to go in parent directory
+
+cd directory_name
+    -to go in particular directory
+
+tasklist 
+    -to see the current running services that are open in background on our pc with .exe extension
+
+tasklist /PID PID-ID
+    -to stop a particular running service
+    # PID-ID=relace with particular service's PID in our pc
+
+net start
+    -to show the running applicarion behind in OS
+
+net stop service_name
+    -to stop the service that is running
+
+net start service_name
+    -to start the service that is stopped
+
+driverquery
+    -to show the installed driver queries in our pc with their properties
+
+cls
+    -to clear the screen 
+
+ver
+    -to see the version of the pc
+
+diskpart
+    -to see the details of our device disks
+
+In diskpart
+    list disk
+        -to see the list of the disk in our pc
+
+    select disk disk_number
+        -to select the disk that number from 1 to 5 
+    
+    details disk
+        -to see the information about the selected disk
+    
+    chkdsk
+        -to check the status of the selected disk
+
+    
+getmac 
+    -give the mac address of our device
+
+systeminfo
+    -give the all information about our system
+
+net user
+    -give all the account information or list that are running in out pc
+
+net user useraccount_name /add password
+    -to add the account in our system
+
+net user /del useraccount_name
+    -to delete the account in our system
+
+net user administrator _/active:yes
+    -to active the administrator account
+
+net user administrator _/active:no
+    -to not active the administrator account
+
+attrib +h +r +s
+    -to hide the all files
+
+attrib -h -r -s
+    -to unhide the all hided files
+
+cipher /e
+    -to encrypt the files
+
+cipher /d
+    -to decrypt the encrypted files
+
+cipher /rekey
+    -Updating the EFS key from files in folders
+
+date
+    -display date
+
+time
+    -display time
+
+tree
+    -show the subfolder details in tree format
+
+inconfig /all
+    -give all the information about the network
