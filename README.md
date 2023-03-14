@@ -1,2 +1,2 @@
 # CMD-CLI
-The basic and advance CMD commands.
+The basic to advance level CMD commands.
