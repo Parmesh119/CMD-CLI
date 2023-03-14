@@ -126,3 +126,110 @@ tree
 
 inconfig /all
     -give all the information about the network
+
+wmic
+    -the  windows management Instrumentation Command line in a software utility that allows users to performs Windows Management Instrumentation(WMI) operations with a Command Prompt.
+
+--> What is WMI in windows?
+- WMI is the infrastructure for management data and operations on windows based OS.
+
+/output:c:\destination_File_Name product get name,version
+    -get the product details
+
+In wmic
+    CPU
+        -when we are in wmic write cpu and this will show the CPU and procesor details
+
+    exit
+        -exit from it.
+
+assoc.File_extension
+    -give the file extension
+
+tasklist > file_name
+    -generate a file with information of tasks that are going on in background
+
+echo text(That you want to put in file) > File_Name
+    -create the file with some text
+
+type File_Name
+    -to see the content of the file
+
+File_Name
+    -It will open the file
+
+create primary partition
+    -create the primary partition of the disk
+
+select primary partition_number
+    -It will select the partition number from selected disk
+
+format fs = ntfs quick 
+    -format the disk that you selected
+
+active
+    -active the specific disk
+
+assign 
+    -assign the partition
+
+label disk_name
+    -new name to the disk that you selected
+
+doskey/history
+    -show the executed command history
+
+shutdown -s
+    -shutdown the pc immediately
+
+shutdown -s -t time_after_shutdown
+    -after how many time you want to shutdown the pc
+
+shutdown -r 
+    -restart the pc
+
+shutdown -r -t time_after_shutdown
+    -after how many time you want to restart the pc
+
+chkntfs disk_name
+    -check the ntfs(new technology file system) status
+
+control
+    -It will open control panel
+
+schtasks
+    -show the all the tasks that are scheduled in OS.
+
+schtasks > file_name 
+    -It will generate the file and put all the information in it.
+
+openfiles
+    -Show the shared files through network and how many people are using it.
+
+ipconfig > file_name
+    -generate the file with ipconfig data
+
+ipconfig /renew 
+    -refrese the ip address or reslove the ip confict
+
+ipconfig /displaydns
+    -display the content of the domain name system(DNS).
+
+ipconfig /flushdns
+    -It will flush DNS cache and refrese it.
+
+ping ip_address
+    -show or ping the the pc with another pc
+
+ping -?
+    -show all the options that we can use with ping
+
+ping -t ip_address
+    -send the packets to the destination pc again and again
+
+ping -a ip_address
+    -saw pc name with other details
+
+ping -n count ip_address
+    -only send the number of packets to the destination pc 
+    
